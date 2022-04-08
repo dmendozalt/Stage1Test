@@ -14,7 +14,7 @@ namespace Stage1Test
 
         static string AvoidSpecialCharacters(string text)
         {
-            string replacedText= Regex.Replace(text, @"[^\w\-\s]", "");
+            string replacedText= Regex.Replace(text, @"[^\w\-\s]", String.Empty);
             return replacedText == String.Empty ? "NA":replacedText;
         }
     }
