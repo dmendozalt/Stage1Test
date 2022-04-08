@@ -7,7 +7,7 @@ namespace Stage1Test
     {
         static void Main(string[] args)
         {            
-            Console.Write("Digite una cadena a limpiar:");
+            Console.Write("Digite una cadena a limpiar: ");
             Console.WriteLine("Cadena limpia: " + AvoidSpecialCharacters(Console.ReadLine()));
         }
 
